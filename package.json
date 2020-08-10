@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node index.js",
+    "start": "node app.js",
     "start-dev": "nodemon app.js"
   },
   "dependencies": {
@@ -16,21 +16,16 @@
     "express": "^4.17.1",
     "express-session": "^1.17.1",
     "firebase-admin": "^9.0.0",
-    "firestore-schema": "^1.2.0-beta.3",
-    "jsonwebtoken": "^8.2.1",
     "method-override": "^3.0.0",
-    "mongoose": "^5.1.2",
-    "mongoose-unique-validator": "^2.0.1",
     "morgan": "^1.10.0",
-    "multer": "^1.4.2",
     "package.json": "^2.0.1",
     "passport-jwt": "^4.0.0",
     "path": "^0.12.7",
     "pug": "^3.0.0",
-    "rxjs": "6.5.2",
+    "rxjs": "^6.5.2",
     "serve-favicon": "^2.5.0",
     "tslib": "^1.9.0",
-    "zone.js": "^0.8.26"
+    "zone.js": "^0.8.29"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
