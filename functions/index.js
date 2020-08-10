@@ -1,4 +1,3 @@
-const functions = require('firebase-functions');
 const path = require("path");
 const express = require("express");
 const bodyParser = require("body-parser");
@@ -33,8 +32,7 @@ app.use((req, res, next) => {
 
 app.use("/api/user",userRoutes)
 
+module.exports = app;
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}...`);
 });  
-
-exports.app = functions.https.onRequest(app);
