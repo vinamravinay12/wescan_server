@@ -4,7 +4,7 @@ const serviceAccount = require('./wescan-in-firebase.json')
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://wescan-in.firebaseio.com",
+  databaseURL: "https://wescan-in.firebaseio.com"
 });
 
 
